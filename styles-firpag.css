@@ -1,0 +1,167 @@
+*::after,
+*::before,
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;   
+}
+
+body{
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: lato;
+    color: gray;
+}
+
+.icon_hotel{
+    width: 40px;
+    height: 40px;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 40px 0;
+}
+
+/* .naveg-places{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+} */
+
+.naveg-places{
+    padding: 40px 20px;
+   
+}
+
+.naveg-places ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.naveg-places ul li{
+    width: 30%;
+    height: 15%;
+    
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px 10px;
+    position: relative;
+}
+
+
+
+/* EDICIÓN DE LOS FILTROS */ 
+
+.contenedor{
+    width: 95%;
+    margin: 0 auto;
+}
+
+#contenedor-busc{
+    margin: 1em 0;
+}
+
+#contenedor-busc input{
+    background-color: transparent;
+    width: 40%;
+    border-bottom: 2px solid black;
+    padding: 1em 0.3em;
+}
+
+#contenedor-busc input:focus{
+    border-color: blue;
+}
+
+#contenedor-busc button{
+    padding: 1em 2em;
+    margin-left: 1em;
+    background-color: rgb(238, 170, 170);
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 0.5em;
+}
+
+.precio-boton{
+    border: 2px solid blue;
+    padding: 1em 2.2em;
+    border-radius: 3em;
+    background-color: transparent;
+    color: lightskyblue;
+    cursor: pointer
+
+}
+.calidad-boton{
+    border: 2px solid blue;
+    padding: 1em 2.2em;
+    border-radius: 3em;
+    background-color: transparent;
+    color: lightskyblue;
+    cursor: pointer
+
+}
+
+.active {
+    background-color: red;
+    color: blueviolet;
+}
+
+
+
+
+/* Inicio del Cuerpo */
+
+h2{
+    font-size: 45px;
+}
+
+
+.info_hotel{
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.hotel:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.hotel figure{
+    overflow: hidden;
+}
+
+.hotel:hover img{
+    transform: scale(1.2);
+}
+
+
+.hotel img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 50px 40px;
+    transition: all .7s;
+}
+
+
+
+.info_hotel{
+    padding: 15px 30px; 
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info_hotel button{
+    background-color: lightcyan;
+    color: black;
+    padding: 15px 10px;
+    font-size: 17px;
+}

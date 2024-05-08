@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles-firpag.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+        <!-----ENCABEZADO----->
+
+        <header>
+            <h1>Busqueda de hotel</h1>
+
+            <div class="Contenedor_HTL">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon_hotel">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" />
+                  </svg>                  
+            </div>
+
+        </header>
+
+        <!--  TABLA PARA FILTROS  -->
+        <!--***************************-->
+        <div class="contenedor">
+          <!--  <div id="contenedor-busc">
+                <input
+                type="search"
+                id="search-input"
+                placeholder="Pon el nombre del hotel a buscar"/>
+                <button id="buscador">Buscador</button> 
+            </div>-->
+            <div id="botones">
+                
+                <button class="precio-boton">Precio</button>
+                <button class="calidad-boton">Calidad</button>
+                
+           <!-- </div> -->
+        </div>
+
+
+        <!--Script-->
+        <script src="ordenamiento.js" ></script>
+
+        <!--***************************-->
+
+
+        <!-----LUGARES---->
+
+        <div class="naveg-places">
+            <ul class="Hoteles">
+                <li data-category="" data-price="">
+                    <div class="hotel">
+    
+                        <div class="imagen-1">
+                            <figure>
+                                <img src="imagenes/OIP (1).jpeg" alt="location-1">
+                            </figure>
+                        </div>
+    
+                        <div class="info_hotel">
+                            <h2>Hotel Esme</h2>
+                            <p> Un hotel de 4 estrellas con un precio de 700 por noche, ofrece una experiencia serena 
+                                con impresionantes vistas al océano. Ideal para quienes buscan tranquilidad.</p>
+                            <button><strong>Calidad: 4 Estrellas</strong></button>
+                            <button><strong>Precio por noche: 700</strong></button>
+                        </div>
+                    </div>                    
+                </li>
+
+                <li data-category="" data-price="">
+                    <div class="hotel">
+                        <div class="imagen-2"
+                        id="hotel-info" data-hotelname="Hotel Rodri"
+                        data-price="850" data-calidad="5 Estrellas">
+                            <figure>
+                                <img src="imagenes/pexels-salma-smida-594929-1375383.jpg" alt="location-2">                         
+                            </figure>
+                        </div>
+                        <div class="info_hotel">
+                            <h2>Hotel rodri</h2>
+                            <p>Este hotel de 5 estrellas y 850 por noche destaca por su arquitectura moderna y su entorno natural, 
+                                perfecto para los que buscan lujo y confort.</p>
+                            <button><strong>Calidad: 5 Estrellas</strong></button>
+                            <button><strong>Precio por noche:850</strong></button>
+                        </div>
+                    </div>
+                </li>
+
+                <li data-category="" data-price="">
+                    <div class="hotel">
+                        <div class="imagen-3">
+                            <figure>
+                                <img src="imagenes/pexels-amar-saleem-15661-70441.jpg" alt="location-2">                         
+                            </figure>
+                        </div>
+                        <div class="info_hotel">
+                            <h2>Hotel rass</h2>
+                            <p>Hotel grande, en el cual la mayoria de los pisos cuentan con vistas impresionantes al mar, cuenta 
+                                con una gran piscina y en algunas habitaciones con jaccuzi</p>
+                            <button><strong>Precio por noche:1000</strong></button>
+                            <button><strong>Calidad: 4 Estrellas</strong></button>
+                        </div>
+                    </div>
+                </li>
+
+                <li data-category="" data-price="">
+                    <div class="hotel">
+                        <div class="imagen-4">
+                            <figure>
+                                <img src="imagenes/pexels-helena-i-1489651-2867903.jpg" alt="location-2">                         
+                            </figure>
+                        </div>
+                        <div class="info_hotel">
+                            <h2>Hotel emma</h2>
+                            <p>Hotel ubicado aproximadamente a 15 min de la orilla del mar, pero a 5 del centro, sus habitaciones
+                                 están bien equipadas pero no son tan espaciosas</p>
+                            <button><strong>Precio por noche:650</strong></button>
+                            <button><strong>Calidad: 3 Estrellas</strong></button>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+
+
+
+
+
+        </div>
+
+
+</body>
+</html>

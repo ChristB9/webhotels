@@ -1,0 +1,146 @@
+/* Parte de arriba de la pagina */
+
+h1{
+   
+    font-size: 50px;
+}
+
+.icon_hotel{
+    width: 80px;
+    height: 80px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 10px 0;
+}
+
+/* Cuerpo/contenido completo */
+
+section{
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.imagen-1{
+    background-image: 
+    url("imagenes/Imagen de WhatsApp 2024-04-26 a las 17.18.49_e99623d3.jpg");
+    
+}
+
+
+.titulo1{
+    color: black;
+    font-size: 9vw;
+    display: flex;
+    background-color: aliceblue;
+    font-family: sans-serif;
+}
+
+.texto-1{
+    position: absolute;
+    bottom: 50%;
+    left: 5%;
+    font-size: 30px;
+    
+    color: brown;
+    font-family:"Anton";
+
+}
+
+.boton-1{
+    width: 350px;
+    height: 80px;
+    
+    font-size: 30px;
+
+    position: absolute;
+    cursor: pointer;
+   
+    bottom: 3%;
+    left: 5%;
+
+    font-family: "Jersey 20";
+}
+
+
+.titulo2{
+    color: black;
+    font-size: 10vw;
+    display: flex;
+    background-color: aliceblue;
+}
+
+.imagen-2{
+    background-image: 
+    url("imagenes/Imagen de WhatsApp 2024-04-26 a las 17.18.50_4355d078.jpg");
+}
+
+.boton-2{
+    width: 350px;
+    height: 90px;
+    
+    font-size: 25px;
+
+    position: absolute;
+    cursor: pointer;
+   
+    top: 190%;
+    left: 5%;
+    font-family: "Jersey 20";
+}
+
+.texto-2{
+    position: absolute;
+    top: 147%;
+    left: 60%;
+    font-size: 30px;
+    
+    color: white;
+    font-family:"Anton";
+}
+
+.titulo3{
+    color: black;
+    font-size: 10vw;
+    display: flex;
+    background-color: aliceblue;
+}
+
+.imagen-3{
+    background-image: 
+    url("imagenes/Imagen de WhatsApp 2024-04-26 a las 17.18.50_fad04bed.jpg");
+}
+
+.boton-3{
+    width: 350px;
+    height: 90px;
+
+    font-size: 25px;
+
+    position: absolute;
+    cursor: pointer;
+
+    top: 295%;
+    left: 5%;
+    font-family: "Jersey 20";
+}
+
+.texto-3{
+    position: absolute;
+    top: 245%;
+    left: 4%;
+    font-size: 30px;
+    
+    color: white;
+    font-family:"Anton";
+}

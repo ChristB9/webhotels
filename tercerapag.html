@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet"href="nefirtstyle.css">
+	<title>Hoteles</title>
+	
+</head>
+<body>
+
+    
+    <!-------FILTROS------->
+
+	<main>
+		<header>
+			<ul class="filtros">
+				<li data-filter="all" class="active"><a href="#">Todo</a></li>
+				<li data-filter="Centrico"><a href="#">Hotel centrico</a></li>
+				<li data-filter="En las montañas"><a href="#">Hotel en las montañas</a></li>
+				
+			</ul>
+			<div class="tipos-filtros">
+				<p>Filtrar por precios según:</p>
+				<select name="" id="select">
+					<option value="Nada">Sin filtro</option>
+					<option value="Menor_Mayor">De Menor a Mayor precio</option>
+					<option value="Mayor_Menor">De Mayor a Menor precio</option>
+				</select>
+			</div>
+		</header>
+
+        <!-----------HOTELES------------->
+
+		<div class="lista-hoteles">
+			<ul class="items">
+				<li data-category="" data-price="">
+					<picture>
+						<img src="imagenestercer/pexels-magda-ehlers-pexels-6532192.jpg" alt="">
+					</picture>
+					<div class="detalles">
+						<h2>Rustic Hideaway Lodge</h2>
+						<strong>Centrico</strong> 
+						<span>En una curva del Río Sereno, este hotel tiene una terraza flotante donde puedes relajarte junto al agua. Las habitaciones tienen vistas al río y al bosque circundante. Precio por noche: $70 dólares.</span>
+						<small>Reserva ahora</small>
+					</div>
+					<h4>$70</h4>
+				</li>
+
+
+				<li data-category="" data-price="">
+					<picture>
+						<img src="imagenestercer/pexels-yash-soni-344443656-14099660.jpg" alt="">
+					</picture>
+					<div class="detalles">
+						<h2>Hotel Nuevo Horizonte</h2>
+						<strong>En las montañas</strong> 
+						<span> A orillas del Río Encantado, este hotel ofrece habitaciones con ventanas de piso a techo que te hacen sentir parte del paisaje. Disfruta de paseos en bote y avistamiento de aves. Precio por noche: $75 dólares.</span>
+						<small>Reserva ahora</small>
+					</div>
+					<h4>$75</h4>
+				</li>
+
+                
+                <li data-category="" data-price="">
+					<picture>
+						<img src="imagenestercer/pexels-lonely-boy-215594492-16419429.jpg" alt="">
+					</picture>
+					<div class="detalles">
+						<h2>Hotel Prisma Azul</h2>
+						<strong>Centrico</strong> 
+						<span>En el centro de la ciudad junto al río, este hotel contemporáneo tiene un diseño minimalista y vistas al Río Urbano. Cerca de tiendas y restaurantes. Precio por noche: $50 dólares.</span>
+						<small>Reserva ahora</small>
+					</div>
+					<h4>$50</h4>
+				</li>
+				
+
+                <li data-category="" data-price="">
+					<picture>
+						<img src="imagenestercer/pexels-detlef-bukowski-155334106-10949427.jpg" alt="">
+					</picture>
+					<div class="detalles">
+						<h2>Hotel bella luna</h2>
+						<strong>En las montañas</strong> 
+						<span>Este hotel es un refugio para los amantes de la naturaleza. Las habitaciones tienen balcones con vistas a los árboles y al río cercano. Precio por noche: $80 dólares.</span>
+						<small>Reserva ahora</small>
+					</div>
+					<h4>$80</h4>
+				</li>
+
+
+                <li data-category="" data-price="">
+					<picture>
+						<img src="imagenestercer/pexels-cvele-13579466.jpg" alt="">
+					</picture>
+					<div class="detalles">
+						<h2>Hotel la Dulce Escapada</h2>
+						<strong>En la montañas</strong> 
+						<span>Rodeado de campos de lirios y otras flores silvestres, este hotel ofrece vistas impresionantes y aire puro de montaña. Cuenta con un observatorio para disfrutar de las estrellas. Precio por noche: $60 dólares</span>
+						<small>Reserva ahora</small>
+					</div>
+					<h4>$60</h4>
+				</li>
+
+				
+			</ul>
+		</div>
+	</main>
+	
+</body>
+</html>
+<script src="ordenamiento.js"></script>

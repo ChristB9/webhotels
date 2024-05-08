@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet"href="nefirtstyle.css">
+	<title>Hoteles</title>
+	
+</head>
+<body>
+
+    
+    <!-------FILTROS------->
+
+	<main>
+		<header>
+			<ul class="filtros">
+				<li data-filter="all" class="active"><a href="#">Todo</a></li>
+				<li data-filter="Centrico"><a href="#">Hotel centrico</a></li>
+				<li data-filter="En las montañas"><a href="#">Hotel en las montañas</a></li>
+				
+			</ul>
+			<div class="tipos-filtros">
+				<p>Filtrar por precios según:</p>
+				<select name="" id="select">
+					<option value="Nada">Sin filtro</option>
+					<option value="Menor_Mayor">De Menor a Mayor precio</option>
+					<option value="Mayor_Menor">De Mayor a Menor precio</option>
+				</select>
+			</div>
+		</header>
+
+        <!-----------HOTELES------------->
+
+		<div class="lista-hoteles">
+			<ul class="items">
+				<li data-category="" data-price="">
+					<picture>
+						<img src="imagenessegundo/pexels-danielnouri-8253154.jpg" alt="">
+					</picture>
+					<div class="detalles">
+						<h2>Hotel Montaña Azul </h2>
+						<strong>En las montañas</strong> 
+						<span>Este hotel ofrece cabañas rústicas con chimeneas y vistas panorámicas. Disfruta de senderos para caminatas y jardines llenos de flores silvestres. Precio por noche:50 dólares </span>
+						<small>Reserva ahora</small>
+					</div>
+					<h4>$50</h4>
+				</li>
+
+
+				<li data-category="" data-price="">
+					<picture>
+						<img src="imagenessegundo/pexels-anna-morgan-75707674-15673053.jpg" alt="">
+					</picture>
+					<div class="detalles">
+						<h2>Hotel el paraíso perdido</h2>
+						<strong>En las montañas</strong> 
+						<span>Este hotel boutique tiene jardines exuberantes y senderos que serpentean entre las flores. Las habitaciones están decoradas con colores vivos y arte local. Precio por noche:45 dólares</span>
+						<small>Reserva ahora</small>
+					</div>
+					<h4>$45</h4>
+				</li>
+
+
+                <li data-category="" data-price="">
+					<picture>
+						<img src="imagenessegundo/pexels-vladimirsrajber-17803737.jpg" alt="">
+					</picture>
+					<div class="detalles">
+						<h2>El rincón del lujo</h2>
+						<strong>Centrico</strong> 
+						<span>Las habitaciones de este hotel ofrecen vistas al río y al horizonte urbano. Disfruta de restaurantes, tiendas y vida nocturna a pocos pasos. Precio por noche:60 dólares</span>
+						<small>Reserva ahora</small>
+					</div>
+					<h4>$60</h4>
+				</li>
+				
+
+                <li data-category="" data-price="">
+					<picture>
+						<img src="imagenessegundo/pexels-jean-paul-wettstein-677916508-19521859.jpg" alt="">
+					</picture>
+					<div class="detalles">
+						<h2>Cosmopolitan Oasis Hotel</h2>
+						<strong>Centrico</strong> 
+						<span>En la zona urbana junto al río, este hotel moderno ofrece habitaciones con ventanas panorámicas que dan al Río Metropolitano. Cerca de museos, teatros y cafeterías. Precio por noche:70 dólares</span>
+						<small>Reserva ahora</small>
+					</div>
+					<h4>$70</h4>
+				</li>
+
+
+                <li data-category="" data-price="">
+					<picture>
+						<img src="imagenessegundo/pexels-fox70-19796055.jpg" alt="">
+					</picture>
+					<div class="detalles">
+						<h2>Cityscape Residence</h2>
+						<strong>Centrico</strong> 
+						<span>En la zona urbana junto al río, este hotel moderno ofrece habitaciones con ventanas panorámicas que dan al Río Metropolitano. Cerca de museos, teatros y cafeterías. Precio por noche: $75 dólares.</span>
+						<small>Reserva ahora</small>
+					</div>
+					<h4>$75</h4>
+				</li>
+
+
+                <li data-category="" data-price="">
+					<picture>
+						<img src="imagenessegundo/pexels-casperdew-799938364-19138778.jpg" alt="">
+					</picture>
+					<div class="detalles">
+						<h2>Mountain Majesty Inn</h2>
+						<strong>En las montañas</strong> 
+						<span>Rodeado de campos de flores, este hotel rural ofrece alojamiento en cabañas de adobe. Disfruta de fogatas al aire libre y noches estrelladas. Precio por noche: $45 dólares.</span>
+						<small>Reserva ahora</small>
+					</div>
+					<h4>$55</h4>
+				</li>
+
+				
+			</ul>
+		</div>
+	</main>
+	
+</body>
+</html>
+<script src="ordenamiento.js"></script>

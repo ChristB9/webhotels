@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet"href="nefirtstyle.css">
+	<title>Hoteles</title>
+	
+</head>
+<body>
+
+    
+    <!-------FILTROS------->
+
+	<main>
+		<header>
+			<ul class="filtros">
+				<li data-filter="all" class="active"><a href="#">Todo</a></li>
+				<li data-filter="Centrico"><a href="#">Hotel centrico</a></li>
+				<li data-filter="Cerca de la playa"><a href="#">Hotel cerca de la playa</a></li>
+				
+			</ul>
+			<div class="tipos-filtros">
+				<p>Filtrar por precios según:</p>
+				<select name="" id="select">
+					<option value="Nada">Sin filtro</option>
+					<option value="Menor_Mayor">De Menor a Mayor precio</option>
+					<option value="Mayor_Menor">De Mayor a Menor precio</option>
+				</select>
+			</div>
+		</header>
+
+        <!-----------HOTELES------------->
+
+		<div class="lista-hoteles">
+			<ul class="items">
+				<li data-category="" data-price="">
+					<picture>
+						<img src="imagenes/OIP (1).jpeg" alt="">
+					</picture>
+					<div class="detalles">
+                        <h2>Hotel Sol Radiante</h2>
+						<strong>Cerca de la playa</strong>
+						<span> Ubicado en la pintoresca ciudad de Playa Dorada, este hotel ofrece habitaciones con vistas panorámicas al océano. Disfruta de la brisa marina mientras te relajas en la piscina de agua salada o saborea exquisitos cócteles en el bar de la azotea. El restaurante “Olas del Sabor” sirve platillos inspirados en la cocina local y mariscos frescos. Precio por noche: 90 dólares</span>
+						<small>Reserva ahora</small>
+					</div>
+					<h4>$75</h4>
+				</li>
+
+
+				<li data-category="" data-price="">
+					<picture>
+						<img src="imagenes/OIP.jpeg" alt="">
+					</picture>
+					<div class="detalles">
+						<h2>Hotel Krystal</h2>
+						<strong>Centrico</strong> 
+						<span>Este hotel ofrece habitaciones con techos altos y muebles de madera tallada a mano. El patio central está adornado con una fuente de azulejos y plantas tropicales. Precio por noche: 65 dólares</span>
+						<small>Reserva ahora</small>
+					</div>
+					<h4>$65</h4>
+				</li>
+
+
+				<li data-category="" data-price="">
+					<picture>
+						<img src="imagenes/pexels-amar-saleem-15661-70441.jpg" alt="">
+					</picture>
+					<div class="detalles">
+						<h2>Hotel Erma</h2>
+						<strong>Cerca de la playa</strong> 
+						<span>Este lujoso resort se encuentra en la isla de Palmera Azul. Sus suites cuentan con jacuzzi privado y balcones con vistas al atardecer sobre el océano. El restaurante “Sirenas del Mar” ofrece una fusión de cocina mediterránea y caribeña. Precio por noche:95 dólares.</span>
+						<small>Reserva ahora</small>
+					</div>
+					<h4>$95 </h4>
+				</li>
+
+
+				<li data-category="" data-price="">
+					<picture>
+						<img src="imagenes/pexels-helena-i-1489651-2867903.jpg" alt="">
+					</picture>
+					<div class="detalles">
+						<h2>Hotel Del Arte</h2>
+						<strong>Centrico</strong> 
+						<span>Este hotel cuenta con habitaciones temáticas decoradas por artistas locales. La “Suite Frida” está llena de colores vibrantes y murales inspirados en la famosa pintora mexicana. El bar “Pinceles y Copas” ofrece cócteles creativos y música en vivo. Precio por noche: 47 dólares.</span>
+						<small>Reserva ahora</small>
+					</div>
+					<h4>$47 </h4>
+				</li>
+
+
+				<li data-category="" data-price="">
+					<picture>
+						<img src="imagenes/pexels-salma-smida-594929-1375383.jpg" alt="">
+					</picture>
+					<div class="detalles">
+						<h2>Hotel Brisas del paraíso</h2>
+						<strong>Cerca de la playa</strong> 
+						<span>Ofrece habitaciones con vistas panorámicas al océano. Disfruta de la brisa marina mientras te relajas en la piscina de agua salada o saborea exquisitos cócteles en el bar de la azotea. El restaurante “Olas del Sabor” sirve platillos inspirados en la cocina local y mariscos frescos. Precio por noche:80 dólares </span>
+						<small>Reserva ahora</small>
+					</div>
+					<h4>$80 </h4>
+				</li>
+
+				
+				<li data-category="" data-price="">
+					<picture>
+						<img src="imagenes/pexels-asman-chema-91897-594077.jpg" alt="">
+					</picture>
+					<div class="detalles">
+						<h2>Hotel Palacio de las Olas</h2>
+						<strong>Cerca de la playa</strong> 
+						<span>Un elegante hotel en Costa Esmeralda, con suites que incluyen balcones con vista al mar y bañeras de hidromasaje. El chef del hotel prepara especialidades locales con un toque gourmet. Precio por noche: 83 dólares</span>
+						<small>Reserva ahora</small>
+					</div>
+					<h4>$83 </h4>
+				</li>
+
+				<li data-category="" data-price="">
+					<picture>
+						<img src="imagenes/pexels-farhana-alam-fimu-900176792-19947064.jpg" alt="">
+					</picture>
+					<div class="detalles">
+						<h2>Refugio del viajero</h2>
+						<strong>Centrico</strong> 
+						<span>Este hotel combina comodidad y conveniencia. Las habitaciones tienen un diseño moderno y están equipadas con tecnología inteligente. Precio por noche:40 dólares</span>
+						<small>Reserva ahora</small>
+					</div>
+					<h4>$40 </h4>
+				</li>
+
+				
+			</ul>
+		</div>
+	</main>
+	
+</body>
+</html>
+<script src="ordenamiento.js"></script>
